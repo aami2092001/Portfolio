@@ -1,0 +1,173 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Croissant One', cursive;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/183/390/476/high-resolution-beach-cottage-hawaii-travel-sea-brown-wooden-dock-wallpaper-preview.jpg');
+    background-size:cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    align-items: center; 
+    margin-left: 150px;
+    position: sticky;
+}
+.logo{
+    width: 100px;
+    margin-left: -120px;
+}
+.list-item{
+    display: inline;
+    list-style: none;
+    margin: 40px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 6px;
+    color: white;
+}
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(251, 250, 250) ;
+   
+}
+.links:hover{
+    color: rgb(9, 9, 9);
+}
+#heading{
+    margin: 13% 0px 0px 0%;
+    text-align: center;
+}
+.title{
+    font-size: 60px;
+    color: white;
+}
+.title1{
+    font-size: 60px;
+    margin-left: -350px;
+    margin-top: -40px;
+    color: white;
+}
+#para{
+    line-height: 20px;
+    color: rgb(135, 239, 135);
+    margin-left: -400px;
+    margin-top: 10px;
+}
+#download{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    font-weight: bold;
+}
+.box
+{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    background-color: rgb(253, 251, 251);
+    flex-direction:row ;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.flex{
+    width: 20%;
+    height: 800px;
+    margin-top: 150px;
+    background-color: rgb(252, 251, 251); 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.box>p{
+    font-size: 600%;
+    display: flex;
+    margin-top: -640px;
+    position: absolute;
+    color: rgb(48, 46, 46);
+}
+.flex>img{
+    width: 100%;
+    height:600px;
+}
+.flex1{
+        width: 20%;
+        height: 800px;
+        margin-top: 270px;
+        background-color: rgb(253, 250, 250); 
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+}
+.pic{
+    height:700px ;
+}
+.searchbar
+{
+    width: 22%;
+    height: 69px;
+    background-color: rgb(240, 235, 235);
+    border: 1px solid;
+    border-color: rgb(227, 224, 224);
+    padding-left: 10px;
+}
+#uname{
+margin-top: 10px;
+border-radius: 25px;
+padding: 2px;
+border-color: white;
+
+}
+.dates{
+    width: 15%;
+    height: 69px;
+    background-color: rgb(240, 235, 235);
+    border: 1px solid;
+    border-color: rgb(227, 224, 224); 
+    padding-left: 10px;
+}
+.gut{
+    width: 20%;
+    height: 69px;
+    background-color: rgb(240, 235, 235);
+    border: 1px solid;
+    border-color: rgb(227, 224, 224);
+    padding-left: 10px;
+}
+#Date{
+    margin-top: 10px;
+    border-radius: 25px;
+    border-color: white;
+    padding: 2px;
+}
+#Plans{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top:1px;
+    display:inline-block;
+    width: 9%;
+    height: 39px;
+    background-color: blue;
+    padding: 15px;
+}
+#line{
+    display: flex;
+    margin-top: -1030px;
+    margin-left: 350px;
+    position: sticky;
+}
